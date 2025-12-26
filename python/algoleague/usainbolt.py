@@ -6,7 +6,7 @@ high_breaks = 0
 
 for i in range(1, a):
     if b[i] > high:
-        high = b[i]
+        high = b[i] # rekor güncelleniyor
         high_breaks += 1
 
 print(high_breaks)  #output - 2
